@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> The Umbrella Academy ☂</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="assets/umbrella.png" type="image/png">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js"></script>
+</head>
+<body>
+    <!-- Video Background -->
+    <video autoplay muted loop id="background-video">
+        <source src="assets/SecretPyramid.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Header Banner -->
+    <header>
+        <h1>☂ The Umbrella Academy ☂</h1>
+        <p class="slogan">"Come in out of the rain."</p>
+    </header>
+
+    <!-- Whitelist Button -->
+    <!-- <button id="umbrellaButton">
+        <img src="assets/umbrella.png" alt="About">
+    </button> -->
+
+    <!-- About Modal -->
+    <!-- <div id="aboutModal" class="modal">
+        <span id="closeModal">&times;</span>
+        <div id="modalContent">
+            <h2>Request Access</h2>
+            <p>Enter your name and wallet address to request access.</p>
+            <input type="text" id="userName" placeholder="Your Name">
+            <button id="requestAccessButton">Request Access</button>
+        </div>
+    </div> -->
+
+    <!-- Whitelisted Only Buttons -->
+    <button id="flashLoanButton" class="hidden">
+        <img src="assets/SecretPyramid.png" alt="Flash Loan">
+    </button>
+
+    <button id="genieButton" class="hidden">
+        🧞‍♂️
+    </button>
+
+    <button id="specialButton" class="hidden">
+        ⚸
+    </button>
+
+    <script type="module" src="js/app.js"></script>
+    <script type="module" src="js/flashLoan.js"></script>
+</body>
+</html>
