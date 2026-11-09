@@ -118,3 +118,5 @@ button#flashLoanButton img {
     height: 60px;
     border-radius: 50%;
 }
+decent-header { display: block; position: relative; z-index: 5; }
+.practice-note { position: relative; z-index: 1; margin: 2rem auto; max-width: 46rem; padding: 1rem; color: white; background: #171126e8; }
